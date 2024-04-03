@@ -10,8 +10,14 @@ const Footer = () => (
       <div className="app__footer-links_contact">
         <h1 className="app__footer-headtext">تماس با ما</h1>
         <p className="p__opensans"> جنت آباد مرکزی خ حسن</p>
-        <p className="p__opensans"> +909 230 12 02</p>
-        <p className="p__opensans"> +909 230 12 03</p>
+        <p className="p__opensans" dir="ltr">
+          {" "}
+          +909 230 12 02
+        </p>
+        <p className="p__opensans" dir="ltr">
+          {" "}
+          +909 230 12 03
+        </p>
       </div>
 
       <div className="app__footer-links_logo">
@@ -38,7 +44,10 @@ const Footer = () => (
     </div>
 
     <div className="footer__copyright">
-      <p className="p__opensans"> 2024 Amo-Hasan. All Rights reserved.</p>
+      <p className="p__opensans" dir="ltr">
+        {" "}
+        2024 Amo-Hasan. All Rights reserved.
+      </p>
     </div>
   </div>
 );

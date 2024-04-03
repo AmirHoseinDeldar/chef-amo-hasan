@@ -17,7 +17,7 @@ const Intro = () => {
       ></video>
       <div className="app__video-overlay flex__center">
         <div
-          className="app__video_circle flex__center"
+          className="app__video-overlay_circle flex__center"
           onClick={() => {
             setPlayVideo(!playvideo);
             if (playvideo) {
